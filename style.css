@@ -1,0 +1,54 @@
+h1,
+h2 {
+    font-family: monocpase;
+    color:black;
+    font-size: 32px;
+    background: blue;
+}
+
+p{
+    color:black;
+    font-family: "Times New Roman";
+    font-size: 12px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+strong{
+    font-weight: normal;
+}
+
+div#myId {
+  background: blue;  
+}
+
+.alert {
+    color: black;
+    background: orange;
+}
+
+.stroker {
+    color: black;
+    border: 4px blue solid;
+}
+
+.photo {
+    float: left;
+    width: 140px;
+}
+table {
+    color: black;
+    background: green;
+}
+h3 {
+    color: black;
+    font-family: monospace;
+    background: blue;
+    
+}
+
+p {
+    color: black;
+    font-family: monospace;
+    background: orange;
+}
