@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8"/> 
+<title>qadratic</title> 
+<script type="text/javascript"> 
+
+function deskriminant( a, b, c){ 
+var x1 ; 
+var x2 ; 
+var d = (b * b) - ((4 * a) * c); 
+d = Math.sqrt(d); 
+if ( d == 0 ){ 
+x1 = -b/(2*a) 
+document.write("Рівняння має один розв'язки x= " + x1); 
+}else if (d > 0){ 
+x1 = (-b + d)/((2*a)*c); 
+x2 = (-b + d)/((2*a)*c); 
+document.write("Рівняння має два розв'язки x1= " + x1 + " x2=" + x2);
+
+}else if(isNaN(d)){ 
+document.write("Рівняння немає розвязку") 
+} 
+} 
+
+deskriminant(2, 6, 3); 
+
+</script> 
+</head> 
+<body> 
+
+</body> 
+</html>
